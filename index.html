@@ -8,60 +8,70 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="ferrari_logo.png" alt="Ferrari Logo">
+        <div class="container">
+            <h1>Ferrari</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#models">Modelos</a></li>
+                    <li><a href="#history">História</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#models">Modelos</a></li>
-                <li><a href="#history">História</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section id="home">
-        <h1>Bem-vindo ao Mundo da Ferrari</h1>
-        <p>Descubra a paixão, o desempenho e a história da lendária marca italiana.</p>
-        <a href="#models" class="btn">Veja nossos Modelos</a>
+        <div class="container">
+            <h2>Bem-vindo ao Mundo da Ferrari</h2>
+            <p>Descubra a paixão, o desempenho e a história da lendária marca italiana.</p>
+            <a href="#models" class="btn">Veja nossos Modelos</a>
+        </div>
     </section>
 
     <section id="models">
-        <h2>Nossos Modelos</h2>
-        <div class="model">
-            <img src="ferrari_488_gt.jpg" alt="Ferrari 488 GT">
-            <h3>Ferrari 488 GT</h3>
-            <p>Uma obra-prima de desempenho e elegância.</p>
-        </div>
-        <div class="model">
-            <img src="ferrari_sf90_stradale.jpg" alt="Ferrari SF90 Stradale">
-            <h3>Ferrari SF90 Stradale</h3>
-            <p>O híbrido de alta performance mais avançado da Ferrari.</p>
+        <div class="container">
+            <h2>Nossos Modelos</h2>
+            <div class="model">
+                <img src="ferrari_488_gt.jpg" alt="Ferrari 488 GT">
+                <h3>Ferrari 488 GT</h3>
+                <p>Uma obra-prima de desempenho e elegância.</p>
+            </div>
+            <div class="model">
+                <img src="ferrari_sf90_stradale.jpg" alt="Ferrari SF90 Stradale">
+                <h3>Ferrari SF90 Stradale</h3>
+                <p>O híbrido de alta performance mais avançado da Ferrari.</p>
+            </div>
         </div>
     </section>
 
     <section id="history">
-        <h2>Nossa História</h2>
-        <p>A Ferrari foi fundada por Enzo Ferrari em 1939 como Auto Avio Costruzioni, e a produção de carros começou em 1947. Desde então, a marca se tornou sinônimo de velocidade, luxo e excelência técnica.</p>
+        <div class="container">
+            <h2>Nossa História</h2>
+            <p>A Ferrari foi fundada por Enzo Ferrari em 1939 como Auto Avio Costruzioni, e a produção de carros começou em 1947. Desde então, a marca se tornou sinônimo de velocidade, luxo e excelência técnica.</p>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Entre em Contato</h2>
-        <p>Para mais informações sobre nossos carros e serviços, entre em contato conosco.</p>
-        <form action="submit.php" method="POST">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações sobre nossos carros e serviços, entre em contato conosco.</p>
+            <form action="submit.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Ferrari. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 Ferrari. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
